@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 16px;
+    background-color: rgb(238, 234, 234);
+}
+header,footer{
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+form{
+    margin: 30px auto;
+    padding: 20px;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+form h1{
+    margin: 10px auto;
+    text-align: center;
+}
+form input,select{
+    margin: 10px 25px;
+    padding: 15px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.ticket{
+    background: #fff;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border: dashed thin #000;
+    position: relative;
+}
+.ticket h2{
+    margin-bottom: 10px;
+}
+.ticket img{
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+}
+.ticket div label{
+    min-width: 150px;
+    display: inline-block;
+}

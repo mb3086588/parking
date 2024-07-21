@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parking App</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <script src="./script/app.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <h1>LNB Parking Application</h1>
+        </header>
+        <main>
+            <form action="" class="user">
+                <h1>User Registration</h1>
+                <input type="text" placeholder="Name*" id="userName" required/>
+                <input type="text" placeholder="Contact*" id="userContact" pattern="[0-9]{10}" required/>
+                <select id="role">
+                    <option selected disabled>--Select Role--</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                </select>
+                <input type="submit" value="Register" id="saveUser" required/>
+            </form>
+            <form action="" class="vehicle">
+                <h1>Vehicle Registration</h1>
+                <input type="text" placeholder="Vehicle id*" id="vehicleId" required>
+                <select id="vehicleType" name="" id="">
+                    <option selected disabled>--Select Vehicle--</option>
+                    <option value="cycle">Cycle</option>
+                    <option value="bike">Bike</option>
+                    <option value="car">Car</option>
+                </select>
+                <input type="submit" value="Register" id="saveVehicle" required>
+            </form>
+            <form action="" class="pass-choice"></form>
+            <section class="ticket"></section>
+        <footer>
+            <p>&copy;Copyrights 2024-25 Parking Application</p>
+        </footer>
+    </body>
+</html>
