@@ -34,7 +34,7 @@ form input,select{
 
 .ticket{
     background: #fff;
-    max-width: 500px;
+    max-width: 38%;
     margin: 30px auto;
     padding: 30px;
     border: dashed thin #000;
