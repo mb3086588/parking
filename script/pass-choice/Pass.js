@@ -18,7 +18,7 @@ class Pass{
                 <label>Expiry</label>
                 <label for="">${this.expiry}</label>
             </div>
-            <img src="http://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${this.expiry}" alt="QR Code" />
+            <img src="http://api.qrserver.com/v1/create-qr-code/?size=80x80&data=Mon%20Jan%2013%202025%2000:42:10%20GMT+0530%20(India%20Standard%20Time)=${this.expiry}" alt="QR Code" />
         `
         document.querySelector('.ticket').innerHTML = ticket   
     }

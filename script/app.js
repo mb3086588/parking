@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userContact = document.getElementById("userContact")
     const role = document.getElementById("role")
     const saveUserBtn = document.getElementById("saveUser")
-    saveUserBtn.addEventListener("click", (e) =>{
+    saveUserBtn.addEventListener("click", e =>{
         e.preventDefault()
         const user = role === "student" ? new Student(userName.value, userContact.value) : new Faculty(userName.value, userContact.value)
         
